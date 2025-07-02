@@ -1,0 +1,31 @@
+Feedback,Sentiment,Category
+The professors explain concepts clearly and concisely.,Positive,Academics
+Course content is outdated and needs revision.,Negative,Academics
+Lectures are informative but sometimes hard to follow.,Neutral,Academics
+Assignments help in understanding the topics better.,Positive,Academics
+"Too many theoretical topics, not enough practicals.",Negative,Academics
+Course materials are well-organized and accessible.,Positive,Academics
+Some subjects are not covered in enough depth.,Negative,Academics
+Class discussions enhance learning a lot.,Positive,Academics
+Exam patterns are unclear and confusing.,Negative,Academics
+Project work is meaningful and helps apply concepts.,Positive,Academics
+The library has a wide range of useful books.,Positive,Facilities
+Wi-Fi is slow and frequently disconnects.,Negative,Facilities
+Labs are well-equipped and clean.,Positive,Facilities
+Cafeteria food quality needs improvement.,Negative,Facilities
+Classrooms are spacious and air-conditioned.,Positive,Facilities
+Sometimes the ACs don’t work during hot days.,Negative,Facilities
+Restrooms are maintained decently well.,Neutral,Facilities
+The gym and sports facilities are top-notch.,Positive,Facilities
+The hostel rooms are too cramped.,Negative,Facilities
+Campus infrastructure is impressive.,Positive,Facilities
+The admission process was smooth and efficient.,Positive,Administration
+It's hard to get transcripts and official letters.,Negative,Administration
+Fee payment process is digital and easy to use.,Positive,Administration
+Administrative staff are not very responsive.,Negative,Administration
+The grievance redressal system works well.,Positive,Administration
+Sometimes it takes too long to get approvals.,Negative,Administration
+Email communication from admin is regular.,Neutral,Administration
+Exam scheduling and notifications are well-managed.,Positive,Administration
+ID card issuance took too long.,Negative,Administration
+The admin team helped resolve my issue quickly.,Positive,Administration

@@ -1,47 +1,72 @@
-# 👋 Hi there, I'm Nitheeshwar S
+# 🎓 College Feedback Classifier
 
-Welcome to my GitHub profile! I'm a passionate and curious learner currently exploring the world of software development, machine learning, and full-stack web technologies.
-
----
-
-## 🚀 About Me
-
-- 🎓 B.Tech Information Technology student at VIT Vellore  
-- 👨‍💻 I enjoy building backend systems and smart applications that solve real-world problems  
-- 🌱 Currently working on projects involving AI, Express.js, and MongoDB  
-- 🤝 Always open to collaborations and learning from others
+This project uses **IBM watsonx.ai** to automatically classify student feedback into relevant categories such as **Academics**, **Facilities**, and **Administration**.  
+> ⚠️ Note: This project **does not perform sentiment analysis** — the focus is purely on identifying the **category** or **topic area** of the feedback.
 
 ---
 
-## 🛠️ Tech Stack
+## 🧠 Project Objective
 
-- **Languages:** JavaScript, Python, Java, C++, SQL  
-- **Web:** HTML, CSS, React.js, Node.js, Express.js  
-- **Database:** MongoDB, MySQL  
-- **Tools:** Git, GitHub, VS Code, Postman  
-- **AI/ML:** IBM Watsonx.ai, scikit-learn, Pandas, NumPy  
-- **Other:** REST APIs, Firebase, Netlify, GitHub Pages
+To streamline and automate the classification of student feedback so institutions can efficiently route concerns, suggestions, or praise to the appropriate departments.
 
 ---
 
-## 📂 Featured Projects
+## ⚙️ How It Works
 
-- 🔍 **College Feedback Classifier** – A GenAI-powered tool that categorizes student feedback using few-shot prompting on IBM Watsonx.ai  
-- 🧾 **Expense Tracker** – A full-stack web app to manage income and expenses with visual analytics  
-- 🔎 **Lost & Found Tracker** – Backend developer for a system that helps students report and retrieve lost items
-
----
-
-## 📈 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=NitheeshwarS&show_icons=true&theme=radical)
+- **Input**: A CSV file containing open-ended student feedback with optional sentiment labels.
+- **Model**: The few-shot classification capability of **IBM watsonx.ai** analyzes each feedback entry and predicts its relevant **category**.
+- **Output**: The original CSV file is updated with a new column named **Predicted Category**.
 
 ---
 
-## 📫 Let's Connect
+## 🧪 Sample Output
 
-- Email: [youremail@example.com]  
-- LinkedIn: [linkedin.com/in/nitheeshwar-s](https://linkedin.com/in/nitheeshwar-s)  
-- Portfolio: Coming soon!
+| Feedback                                             | Sentiment | Category        | Predicted Category |
+|------------------------------------------------------|-----------|------------------|---------------------|
+| The professors explain concepts very clearly.        | positive  | Academics        | Academics           |
+| The canteen food is not hygienic.                    | negative  | Facilities        | Facilities          |
+| The admin staff is friendly and helpful.             | positive  | Administration    | Administration      |
+| The online learning platform is easy to use.         | positive  | Academics         | Academics           |
 
-Thanks for stopping by! 😊
+> ✅ *Sentiment is not predicted — it is assumed to be pre-existing in the dataset for context.*
+
+---
+
+## 🛠 Tools Used
+
+- 🧠 **IBM watsonx.ai** – for few-shot text classification  
+- 📊 **Jupyter Notebook / Python** – for reading/writing CSV and preparing input/output  
+- 🗃️ **CSV Files** – for input and output feedback data  
+- 🧾 **GitHub** – for version control and collaboration
+
+---
+
+## 📂 Files
+
+- `college_feedback_classified.csv` – Final output with a `Predicted Category` column  
+- `feedback_data.csv` – Input file containing raw feedback and sentiment  
+- `notebook.ipynb` – Jupyter notebook to run the classification  
+- `README.md` – Project description (this file)
+
+---
+
+## 🗃️ Use Cases
+
+- Automatically categorize large-scale student surveys  
+- Help academic institutions quickly identify department-specific feedback  
+- Save time by avoiding manual classification of open-text responses  
+- Improve routing of grievances, praise, or suggestions to respective teams
+
+---
+
+## 👨‍💻 Developed By
+
+**Nitheeshwar S**  
+Feel free to reach out for questions, collaboration, or feedback!
+
+📬 Email: `your.email@example.com`  
+🔗 LinkedIn: [linkedin.com/in/nitheeshwar-s](https://linkedin.com/in/nitheeshwar-s)  
+📁 Project Repo: [GitHub - College Feedback Classifier](#)
+
+---
+

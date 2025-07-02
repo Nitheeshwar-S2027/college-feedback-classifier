@@ -43,10 +43,9 @@ To streamline and automate the classification of student feedback so institution
 
 ## 📂 Files
 
-- `college_feedback_classified.csv` – Final output with a `Predicted Category` column  
-- `feedback_data.csv` – Input file containing raw feedback and sentiment  
-- `notebook.ipynb` – Jupyter notebook to run the classification  
-- `README.md` – Project description (this file)
+- `feedback_output_1751456915.csv` – Final output with a `Predicted Category` column  
+- `college_feedback.csv` – Input file containing raw feedback and sentiment  
+- `college_feedback_classifier.ipynb` – Jupyter notebook to run the classification  
 
 ---
 

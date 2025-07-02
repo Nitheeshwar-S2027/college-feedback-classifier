@@ -64,8 +64,7 @@ To streamline and automate the classification of student feedback so institution
 **Nitheeshwar S**  
 Feel free to reach out for questions, collaboration, or feedback!
 
-📬 Email: `your.email@example.com`  
-🔗 LinkedIn: [linkedin.com/in/nitheeshwar-s](https://linkedin.com/in/nitheeshwar-s)  
+📬 Email: `nitheeshwar.2023@vitstudent.ac.in`  
 📁 Project Repo: [GitHub - College Feedback Classifier](#)
 
 ---
